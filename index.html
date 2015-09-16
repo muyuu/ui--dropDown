@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>ui-tab</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="page">
+	<div id="pageHeader" class="pageHeader">
+		<div class="container">
+			<div class="box">
+				<h1>page title</h1>
+
+				<p>html boilerplate base.</p>
+			</div>
+		</div>
+	</div>
+	<div class="pageContent">
+		<div class="container">
+			<div class="box">
+				<div class="row">
+					<div class="col3">
+						<h2>tab</h2>
+					</div>
+					<div class="col9">
+						<div class="dropDown js-dropDown">
+							<div class="dropDown__select js-dropDown__select">
+								<select name="drop">
+									<option value="list1">リスト1</option>
+									<option value="list2">リスト2</option>
+									<option value="list3">リスト3</option>
+									<option value="list4">リスト4</option>
+									<option value="list5">リスト5</option>
+									<option value="list6">リスト6</option>
+									<option value="list7">リスト7</option>
+									<option value="list8">リスト8</option>
+									<option value="list9">リスト9</option>
+									<option value="list10">リスト10</option>
+								</select>
+							</div>
+							<div class="dropDown__body js-dropDown__body">
+								<ul class="dropDown__list js-dropDown__list"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pageFooter"></div>
+	<div class="goToTop"><a href="#pageHeader" class="goToTop__link"><i class="fa fa-hand-o-up fa-4x"></i></a></div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/underscore/underscore-min.js"></script>
+<script src="./dropDown.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
